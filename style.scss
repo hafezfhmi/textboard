@@ -1,0 +1,66 @@
+$text-white: #f0f0f0;
+
+@font-face {
+  font-family: digitalFont;
+  src: url(digitalFont.ttf);
+}
+
+* {
+  font-family: digitalFont;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #151515;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+header {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #151515;
+  color: $text-white;
+  letter-spacing: 5px;
+}
+
+form {
+  margin: 0 20px;
+  padding: 50px 25px;
+  border: 5px solid rgb(36, 36, 36);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black inset;
+}
+
+.button-start {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  left: 0;
+  right: 0;
+  font-size: 4vh;
+  background-color: #c0c0c0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-start:hover {
+  background-color: #838383;
+}
+
+@for $i from 0 through 124 {
+  #input-text#{$i} {
+    color: $text-white;
+    text-align: center;
+    font-size: 6vh;
+    width: 2.55%;
+    height: 9vh;
+    margin: 10px 5px;
+    background-color: #242424;
+    border: none;
+    box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  }
+}
