@@ -1,4 +1,7 @@
 $(document).ready(function () {
+  //read this for input improvement
+  // https://www.google.com/search?q=html+otp+input&source=lmns&bih=667&biw=1366&hl=en&sa=X&ved=2ahUKEwiT-Nu47ozxAhWj6HMBHef7C18Q_AUoAHoECAEQAA
+
   //SETUP VARIABLES for input
   let count = 0;
 
@@ -18,7 +21,11 @@ $(document).ready(function () {
   }
 
   //SETUP VARIABLES for random letter
-  let letter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  let letter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=,./'\"";
+  letter = letter.split("");
+  let color = ["white", "red", "orange", "yellow", "green", "lightblue", "purple"];
+  letter.push(...color);
+  console.log(letter);
   let time = 0;
   var randomInterval;
   var inputIterations = [];
@@ -59,11 +66,19 @@ $(document).ready(function () {
     for (let i = 0; i <= 124; i++) {
       if (time < inputIterations[i].end) {
         let x = Math.floor(Math.random() * letter.length);
-        $(`#input-text${i}`).val(letter[x]);
+        let y = letter[x];
+        if (color.indexOf(y) != -1) {
+          $(`#input-text${i}`).val("");
+          $(`#input-text${i}`).css("background-color", y);
+        } else {
+          $(`#input-text${i}`).css("background-color", "#242424");
+          $(`#input-text${i}`).val(y);
+        }
       }
 
       if (time == inputIterations[i].end) {
         // console.log(inputIterations[i].end);
+        $(`#input-text${i}`).css("background-color", "#242424");
         $(`#input-text${i}`).val(inputIterations[i].value);
       }
     }
