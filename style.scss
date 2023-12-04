@@ -1,12 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap");
 $text-white: #f0f0f0;
 
-@font-face {
-  font-family: digitalFont;
-  src: url(digitalFont.ttf);
-}
-
 * {
-  font-family: digitalFont;
+  font-family: "Chakra Petch", sans-serif;
   box-sizing: border-box;
 }
 
