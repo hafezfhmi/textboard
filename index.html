@@ -1,8 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./textboard.js"></script>
     <link rel="stylesheet" href="style.css" />
@@ -13,15 +14,13 @@
       <h1>TextBoard</h1>
     </header>
 
-    <section>
-      <form action="" autocomplete="off">
-        <div id="container-input0"></div>
-        <div id="container-input1"></div>
-        <div id="container-input2"></div>
-        <div id="container-input3"></div>
-        <div id="container-input4"></div>
-        <button class="button-start" type="button">START</button>
-      </form>
-    </section>
+    <div class="textboard">
+      <div id="container-input0" class="textboard__row"></div>
+      <div id="container-input1" class="textboard__row"></div>
+      <div id="container-input2" class="textboard__row"></div>
+      <div id="container-input3" class="textboard__row"></div>
+      <div id="container-input4" class="textboard__row"></div>
+      <button class="textboard__start" id="start" type="button">START</button>
+    </div>
   </body>
 </html>

@@ -8,8 +8,8 @@ $(document).ready(function () {
   //display the input text with unique id
   function inputCount() {
     let x = "";
-    for (let i = 0; i < 25; i++) {
-      x += `<input id="input-text${count}" maxlength="1" type="text" name="input" id="input" /> `;
+    for (let i = 0; i < 20; i++) {
+      x += `<input id="input-text${count}" maxlength="1" type="text" name="input" id="input" class="textboard__row__input" /> `;
       count++;
     }
     return x;
@@ -23,15 +23,23 @@ $(document).ready(function () {
   //SETUP VARIABLES for random letter
   let letter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=,./'\"";
   letter = letter.split("");
-  let color = ["white", "red", "orange", "yellow", "green", "lightblue", "purple"];
+  let color = [
+    "white",
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "lightblue",
+    "purple",
+  ];
   letter.push(...color);
   console.log(letter);
   let time = 0;
   var randomInterval;
   var inputIterations = [];
 
-  $(".button-start").click(function () {
-    $(".button-start").attr("disabled", "true");
+  $("#start").click(function () {
+    $("#start").attr("disabled", "true");
 
     for (let i = 0; i <= 124; i++) {
       inputSetupOnce(i);
@@ -45,13 +53,18 @@ $(document).ready(function () {
     let noValStart = 3;
     let valStart = 6;
     let bothValEnd = 10;
-    if ($(`#input-text${i}`).val() === "" || $(`#input-text${i}`).val() == undefined) {
-      randomEnd = Math.floor(Math.random() * (bothValEnd - noValStart + 1)) + noValStart;
+    if (
+      $(`#input-text${i}`).val() === "" ||
+      $(`#input-text${i}`).val() == undefined
+    ) {
+      randomEnd =
+        Math.floor(Math.random() * (bothValEnd - noValStart + 1)) + noValStart;
       randomEnd = parseInt(randomEnd.toString() + "000");
       inputIterations.push({ iterations: i, value: "", end: randomEnd });
     } else {
       let val = $(`#input-text${i}`).val();
-      randomEnd = Math.floor(Math.random() * (bothValEnd - valStart + 1)) + valStart;
+      randomEnd =
+        Math.floor(Math.random() * (bothValEnd - valStart + 1)) + valStart;
       randomEnd = parseInt(randomEnd.toString() + "000");
       inputIterations.push({ iterations: i, value: val, end: randomEnd });
     }
@@ -87,7 +100,7 @@ $(document).ready(function () {
       // console.log(inputIterations);
       time = 0;
       inputIterations = [];
-      $(".button-start").removeAttr("disabled");
+      $("#start").removeAttr("disabled");
       clearInterval(randomInterval);
     }
   }
