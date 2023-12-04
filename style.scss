@@ -35,12 +35,9 @@ form {
 
 .button-start {
   position: absolute;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: 5px;
-  left: 0;
-  right: 0;
   font-size: 4vh;
   background-color: #c0c0c0;
   border: none;

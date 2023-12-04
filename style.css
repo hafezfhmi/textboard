@@ -2,7 +2,6 @@
   font-family: digitalFont;
   src: url(digitalFont.ttf);
 }
-
 * {
   font-family: digitalFont;
 }
@@ -26,27 +25,22 @@ header {
 form {
   margin: 0 20px;
   padding: 50px 25px;
-  border: 5px solid #242424;
+  border: 5px solid rgb(36, 36, 36);
   border-radius: 5px;
-  -webkit-box-shadow: 2px 2px 5px black inset;
-          box-shadow: 2px 2px 5px black inset;
+  box-shadow: 2px 2px 5px black inset;
 }
 
 .button-start {
   position: absolute;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: 5px;
-  left: 0;
-  right: 0;
   font-size: 4vh;
   background-color: #c0c0c0;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  -webkit-box-shadow: 2px 2px 10px black;
-          box-shadow: 2px 2px 10px black;
+  box-shadow: 2px 2px 10px black;
 }
 
 .button-start:hover {
@@ -62,8 +56,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text1 {
@@ -75,8 +68,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text2 {
@@ -88,8 +80,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text3 {
@@ -101,8 +92,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text4 {
@@ -114,8 +104,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text5 {
@@ -127,8 +116,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text6 {
@@ -140,8 +128,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text7 {
@@ -153,8 +140,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text8 {
@@ -166,8 +152,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text9 {
@@ -179,8 +164,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text10 {
@@ -192,8 +176,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text11 {
@@ -205,8 +188,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text12 {
@@ -218,8 +200,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text13 {
@@ -231,8 +212,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text14 {
@@ -244,8 +224,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text15 {
@@ -257,8 +236,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text16 {
@@ -270,8 +248,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text17 {
@@ -283,8 +260,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text18 {
@@ -296,8 +272,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text19 {
@@ -309,8 +284,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text20 {
@@ -322,8 +296,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text21 {
@@ -335,8 +308,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text22 {
@@ -348,8 +320,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text23 {
@@ -361,8 +332,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text24 {
@@ -374,8 +344,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text25 {
@@ -387,8 +356,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text26 {
@@ -400,8 +368,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text27 {
@@ -413,8 +380,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text28 {
@@ -426,8 +392,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text29 {
@@ -439,8 +404,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text30 {
@@ -452,8 +416,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text31 {
@@ -465,8 +428,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text32 {
@@ -478,8 +440,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text33 {
@@ -491,8 +452,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text34 {
@@ -504,8 +464,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text35 {
@@ -517,8 +476,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text36 {
@@ -530,8 +488,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text37 {
@@ -543,8 +500,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text38 {
@@ -556,8 +512,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text39 {
@@ -569,8 +524,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text40 {
@@ -582,8 +536,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text41 {
@@ -595,8 +548,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text42 {
@@ -608,8 +560,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text43 {
@@ -621,8 +572,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text44 {
@@ -634,8 +584,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text45 {
@@ -647,8 +596,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text46 {
@@ -660,8 +608,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text47 {
@@ -673,8 +620,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text48 {
@@ -686,8 +632,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text49 {
@@ -699,8 +644,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text50 {
@@ -712,8 +656,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text51 {
@@ -725,8 +668,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text52 {
@@ -738,8 +680,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text53 {
@@ -751,8 +692,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text54 {
@@ -764,8 +704,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text55 {
@@ -777,8 +716,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text56 {
@@ -790,8 +728,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text57 {
@@ -803,8 +740,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text58 {
@@ -816,8 +752,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text59 {
@@ -829,8 +764,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text60 {
@@ -842,8 +776,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text61 {
@@ -855,8 +788,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text62 {
@@ -868,8 +800,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text63 {
@@ -881,8 +812,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text64 {
@@ -894,8 +824,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text65 {
@@ -907,8 +836,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text66 {
@@ -920,8 +848,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text67 {
@@ -933,8 +860,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text68 {
@@ -946,8 +872,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text69 {
@@ -959,8 +884,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text70 {
@@ -972,8 +896,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text71 {
@@ -985,8 +908,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text72 {
@@ -998,8 +920,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text73 {
@@ -1011,8 +932,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text74 {
@@ -1024,8 +944,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text75 {
@@ -1037,8 +956,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text76 {
@@ -1050,8 +968,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text77 {
@@ -1063,8 +980,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text78 {
@@ -1076,8 +992,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text79 {
@@ -1089,8 +1004,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text80 {
@@ -1102,8 +1016,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text81 {
@@ -1115,8 +1028,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text82 {
@@ -1128,8 +1040,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text83 {
@@ -1141,8 +1052,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text84 {
@@ -1154,8 +1064,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text85 {
@@ -1167,8 +1076,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text86 {
@@ -1180,8 +1088,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text87 {
@@ -1193,8 +1100,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text88 {
@@ -1206,8 +1112,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text89 {
@@ -1219,8 +1124,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text90 {
@@ -1232,8 +1136,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text91 {
@@ -1245,8 +1148,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text92 {
@@ -1258,8 +1160,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text93 {
@@ -1271,8 +1172,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text94 {
@@ -1284,8 +1184,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text95 {
@@ -1297,8 +1196,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text96 {
@@ -1310,8 +1208,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text97 {
@@ -1323,8 +1220,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text98 {
@@ -1336,8 +1232,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text99 {
@@ -1349,8 +1244,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text100 {
@@ -1362,8 +1256,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text101 {
@@ -1375,8 +1268,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text102 {
@@ -1388,8 +1280,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text103 {
@@ -1401,8 +1292,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text104 {
@@ -1414,8 +1304,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text105 {
@@ -1427,8 +1316,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text106 {
@@ -1440,8 +1328,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text107 {
@@ -1453,8 +1340,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text108 {
@@ -1466,8 +1352,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text109 {
@@ -1479,8 +1364,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text110 {
@@ -1492,8 +1376,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text111 {
@@ -1505,8 +1388,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text112 {
@@ -1518,8 +1400,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text113 {
@@ -1531,8 +1412,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text114 {
@@ -1544,8 +1424,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text115 {
@@ -1557,8 +1436,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text116 {
@@ -1570,8 +1448,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text117 {
@@ -1583,8 +1460,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text118 {
@@ -1596,8 +1472,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text119 {
@@ -1609,8 +1484,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text120 {
@@ -1622,8 +1496,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text121 {
@@ -1635,8 +1508,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text122 {
@@ -1648,8 +1520,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text123 {
@@ -1661,8 +1532,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
 
 #input-text124 {
@@ -1674,7 +1544,7 @@ form {
   margin: 10px 5px;
   background-color: #242424;
   border: none;
-  -webkit-box-shadow: 1px 1px 8px 0.5px #010101 inset;
-          box-shadow: 1px 1px 8px 0.5px #010101 inset;
+  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
+
 /*# sourceMappingURL=style.css.map */
