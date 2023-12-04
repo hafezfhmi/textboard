@@ -7,6 +7,7 @@ $text-white: #f0f0f0;
 
 * {
   font-family: digitalFont;
+  box-sizing: border-box;
 }
 
 body {
@@ -39,6 +40,13 @@ header {
     &__input {
       flex: 1;
       min-width: 0;
+      color: $text-white;
+      text-align: center;
+      font-size: 40px;
+      background-color: #242424;
+      border: none;
+      box-shadow: 1px 1px 8px 0.5px #010101 inset;
+      padding: 10px 0;
     }
   }
 
@@ -50,19 +58,10 @@ header {
     cursor: pointer;
     box-shadow: 2px 2px 10px black;
     margin-top: 10px;
+    padding: 5px 10px;
 
     &:hover {
       background-color: #838383;
     }
   }
-}
-
-input {
-  color: $text-white;
-  text-align: center;
-  font-size: 40px;
-  height: 70px;
-  background-color: #242424;
-  border: none;
-  box-shadow: 1px 1px 8px 0.5px #010101 inset;
 }
